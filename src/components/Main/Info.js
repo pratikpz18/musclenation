@@ -9,7 +9,7 @@ const Info = () => (
     <h1>
       EASY WITH OUR <span>GYM</span>
     </h1>
-    <Button text="BECOME A MEMBER" />
+    <Button text="BECOME A MEMBER" href="#contact" />
   </div>
 );
 

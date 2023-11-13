@@ -2,7 +2,6 @@
 import { jsx, css } from "@emotion/core";
 import React from "react";
 import Link from "./Link";
-import Button from "../GlobalComponents/Button";
 
 const LinksContainer = ({ hidden }) => {
   return (
@@ -10,16 +9,15 @@ const LinksContainer = ({ hidden }) => {
       <Link name="HOME" linkTo="#home" />
       <Link name="ABOUT" linkTo="#trainers" />
       <Link name="CLASSES" linkTo="#ourClasses" />
-      <Link name="SCHEDULES" linkTo="#schedule" />
+      {/* <Link name="SCHEDULES" linkTo="#schedule" /> */}
       <Link name="CONTACT" linkTo="#contact" />
-      <Button text="SIGN UP" />
     </div>
   );
 };
 
 const styles = css`
   width: 100%;
-  max-width: 620px;
+  max-width: 540px;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -14,7 +14,7 @@ const App = () => (
     <GymProgram />
     <Member />
     <Classes />
-    <Schedule />
+    {/* <Schedule /> */}
     <Trainers />
     <Contact />
   </div>

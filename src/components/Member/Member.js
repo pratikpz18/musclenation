@@ -3,6 +3,7 @@ import { jsx, css } from "@emotion/core";
 import React from "react";
 import Button from "../GlobalComponents/Button";
 import GymOverlayBg from "../Image/gymOverlayBg.jpg";
+// import GymOverlayBg from "../Image/cover.jpg";
 
 const Member = ({ text }) => (
   <section css={styles} className="member">
@@ -20,7 +21,7 @@ const Member = ({ text }) => (
 
 const styles = css`
   width: 100%;
-  padding: 120px 0;
+  padding: 100px 0;
   text-align: center;
   background: url('${GymOverlayBg}') no-repeat center/cover;
   h2 {

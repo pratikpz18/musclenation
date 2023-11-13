@@ -13,10 +13,10 @@ const Contact = () => (
     </Container>
     <footer>
       <p>
-        Copyright &copy; © 2020 Training Studio - Designed by{" "}
-        <a href="https://templatemo.com/" target="_blank">
-          TemplateMo
-        </a>
+        &copy; 2023 Muscle Nation. All Rights Reserved.
+      </p>
+      <p>
+        Designed by <a href="https://pratikpz18.github.io/portfolio/" target="_blank" rel="noopener noreferrer">pratikpz</a>
       </p>
     </footer>
   </section>
@@ -30,7 +30,7 @@ const styles = css`
   }
   footer {
     text-align: center;
-    padding: 36px 0;
+    padding: 12px 0;
     p {
       font-size: 14px;
       color: #232d39;

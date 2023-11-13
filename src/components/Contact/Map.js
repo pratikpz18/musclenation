@@ -6,7 +6,7 @@ const Map = () => (
   <div css={styles} className="mapouter">
     <iframe
       id="gmap_canvas"
-      src="https://maps.google.com/maps?q=Av.%20L%C3%BAcio%20Costa&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.76303202924!2d73.09139667472375!3d19.205549747893755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7958428bbae6f%3A0xc842ec511afa2b7a!2sMuscle%20Nation%20Gym!5e0!3m2!1sen!2sin!4v1699876541976!5m2!1sen!2sin"
     ></iframe>
   </div>
 );

@@ -30,7 +30,7 @@ const Classes = ({ text }) => {
 
 const styles = css`
   width: 100%;
-  padding: 100px 0;
+  padding: 36px 0;
   text-align: center;
   h2 {
     color: #232d39;

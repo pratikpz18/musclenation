@@ -32,7 +32,7 @@ const Schedule = () => {
 
 const styles = css`
   width: 100%;
-  padding: 120px 0;
+  padding: 36px 0;
   min-height: 100vh;
   text-align: center;
   background: url('${scheduleBg}') no-repeat center/cover;
